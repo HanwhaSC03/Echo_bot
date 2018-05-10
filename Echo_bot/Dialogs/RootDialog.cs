@@ -8,7 +8,7 @@ namespace Echo_bot.Dialogs
     [Serializable]
     public class RootDialog : IDialog<object>
     {
-        public Task StartAsync(IDialogContext context)
+        public Task StartAsync(IDialogContext context) 
         {
             context.Wait(MessageReceivedAsync);
 
